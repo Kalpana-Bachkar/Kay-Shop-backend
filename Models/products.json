@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1,
+    "name": "Activewear",
+    "price": 1499,
+    "category": "Women",
+    "type": "Activewear",
+    "description": "Comfortable and stylish activewear for workouts and casual wear.",
+    "image": "/images/Activewear.png",
+    "specifications": {
+      "Brand": "DesiVibe",
+      "Material": "Polyester",
+      "Fit": "Slim Fit",
+      "Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 5,
+        "comment": "Super comfortable and perfect for gym sessions!"
+      },
+      {
+        "username": "Nina",
+        "rating": 1,
+        "comment": "Nice fabric and fit. Worth the price."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dresses & Jumpsuits",
+    "price": 2199,
+    "category": "Women",
+    "type": "Dresses & Jumpsuits",
+    "description": "Elegant dresses and jumpsuits perfect for all occasions.",
+    "image": "/images/Dresses__Jumpsuits.png",
+    "specifications": {
+      "Brand": "StyleAura",
+      "Material": "Rayon",
+      "Fit": "Regular Fit",
+      "Length": "Knee-Length"
+    },
+    "reviews": [
+      {
+        "username": "Sophie",
+        "rating": 5,
+        "comment": "Absolutely love the design. Got so many compliments!"
+      },
+      {
+        "username": "Priya",
+        "rating": 4,
+        "comment": "Good quality, fits well. Could be a bit cheaper."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tops & Tees",
+    "price": 899,
+    "category": "Women",
+    "type": "Topwear",
+    "description": "Trendy tops and t-shirts to elevate your everyday look.",
+    "image": "/images/Tops__Tees.png",
+    "specifications": {
+      "Brand": "UrbanChic",
+      "Material": "Cotton",
+      "Sleeve": "Half Sleeve",
+      "Neck": "Round Neck"
+    },
+    "reviews": [
+      {
+        "username": "Riya",
+        "rating": 4,
+        "comment": "Great for casual wear, fits perfectly."
+      },
+      {
+        "username": "Anjali",
+        "rating": 5,
+        "comment": "Loved the color and fabric. Totally worth it!"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Salwar Suits",
+    "price": 1999,
+    "category": "Women",
+    "type": "Ethnic",
+    "description": "Traditional salwar suits with modern designs and vibrant colors.",
+    "image": "/images/Salwarsuits.png",
+    "specifications": {
+      "Brand": "EthnicTrendz",
+      "Material": "Cotton Silk",
+      "Occasion": "Festive",
+      "Includes": "Kurta, Salwar, Dupatta"
+    },
+    "reviews": [
+      {
+        "username": "Meera",
+        "rating": 5,
+        "comment": "Elegant design and vibrant colors. Perfect for festivals!"
+      },
+      {
+        "username": "Kavita",
+        "rating": 4,
+        "comment": "Good quality, just needed a slight size adjustment."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dupattas",
+    "price": 599,
+    "category": "Women",
+    "type": "Ethnic",
+    "description": "Beautiful dupattas to pair with ethnic wear.",
+    "image": "/images/Dupattas.png",
+    "specifications": {
+      "Brand": "TraditionHub",
+      "Fabric": "Chiffon",
+      "Length": "2.25 meters",
+      "Embellishment": "Embroidered"
+    },
+    "reviews": [
+      {
+        "username": "Neha",
+        "rating": 5,
+        "comment": "The embroidery is lovely, and the material feels premium."
+      },
+      {
+        "username": "Aarti",
+        "rating": 4,
+        "comment": "Beautiful colors, just a bit shorter than expected."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Kurtas & Sets",
+    "price": 1899,
+    "category": "Women",
+    "type": "Ethnic",
+    "description": "Stylish kurtas and matching sets for festive and casual looks.",
+    "image": "/images/Kurtas__Sets.png",
+    "specifications": {
+      "Brand": "FabLooks",
+      "Material": "Rayon Blend",
+      "Pattern": "Printed",
+      "Fit": "Regular Fit"
+    },
+    "reviews": [
+      {
+        "username": "Swati",
+        "rating": 5,
+        "comment": "Perfect for Diwali — got lots of compliments!"
+      },
+      {
+        "username": "Divya",
+        "rating": 4,
+        "comment": "Nice fabric and stitching. Fit is slightly loose."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Lehengas",
+    "price": 3499,
+    "category": "Women",
+    "type": "Ethnic",
+    "description": "Designer lehengas for weddings, parties, and special events.",
+    "image": "/images/Lehengas.png",
+    "specifications": {
+      "Brand": "RoyalLook",
+      "Material": "Silk Blend",
+      "Stitching": "Semi-Stitched",
+      "Work": "Zari Embroidery"
+    },
+    "reviews": [
+      {
+        "username": "Pooja",
+        "rating": 5,
+        "comment": "Looks exactly like the picture. Perfect for wedding functions!"
+      },
+      {
+        "username": "Rashmi",
+        "rating": 4,
+        "comment": "Heavy and elegant, but delivery took a bit longer."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Jeans & Jeggings",
+    "price": 1299,
+    "category": "Women",
+    "type": "Bottomwear",
+    "description": "High-quality jeans and jeggings for daily comfort and style.",
+    "image": "/images/Jeans__Jeggings.png",
+    "specifications": {
+      "Brand": "DenimNest",
+      "Fit": "Skinny Fit",
+      "Material": "Stretch Denim",
+      "Closure": "Button & Zip"
+    },
+    "reviews": [
+      {
+        "username": "Anita",
+        "rating": 5,
+        "comment": "Fits perfectly and very comfortable for everyday use."
+      },
+      {
+        "username": "Sneha",
+        "rating": 4,
+        "comment": "Good quality, but a bit tight around the waist."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Formal Blue Shirt",
+    "price": 1299,
+    "category": "Men",
+    "type": "Shirt",
+    "description": "Slim-fit formal blue shirt ideal for office and formal events.",
+    "image": "/images/formalShirt.jfif",
+    "specifications": {
+      "Brand": "Forman",
+      "Material": "Cotton Blend",
+      "Sleeve": "Full Sleeve",
+      "Collar": "Spread Collar"
+    },
+    "reviews": [
+      {
+        "username": "Rohan",
+        "rating": 5,
+        "comment": "Great shirt for work, looks sharp and fits well."
+      },
+      {
+        "username": "Vikram",
+        "rating": 4,
+        "comment": "Nice color and fabric, but sleeves are slightly long."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Grey Suit",
+    "price": 4999,
+    "category": "Men",
+    "type": "Suit",
+    "description": "Classic tailored grey suit for business and formal occasions.",
+    "image": "/images/suits.jfif",
+    "specifications": {
+      "Brand": "EliteMen",
+      "Material": "Terry Rayon",
+      "Fit": "Tailored Fit",
+      "Includes": "Blazer, Trousers"
+    },
+    "reviews": [
+      {
+        "username": "Aditya",
+        "rating": 5,
+        "comment": "Perfect suit for my business meetings. Well tailored."
+      },
+      {
+        "username": "Sandeep",
+        "rating": 4,
+        "comment": "Good quality, but the jacket pockets are a bit shallow."
+      }
+    ]
+  },
+    {
+    "id": 11,
+    "name": "Casual Polo and Trousers",
+    "price": 1599,
+    "category": "Men",
+    "type": "Casual Wear",
+    "description": "Laid-back casual polo paired with comfortable wide-leg trousers.",
+    "image": "/images/menJeans.jfif",
+    "specifications": {
+      "Brand": "CoolThreads",
+      "Material": "Cotton Blend",
+      "Fit": "Relaxed Fit",
+      "Sizes": ["S", "M", "L", "XL"]
+    },
+    "reviews": [
+      {
+        "username": "Manish",
+        "rating": 5,
+        "comment": "Very comfortable outfit for weekend wear."
+      },
+      {
+        "username": "Deepak",
+        "rating": 4,
+        "comment": "Fabric feels great, but the fit is a bit loose."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Navy Blue Kurta Set",
+    "price": 1899,
+    "category": "Men",
+    "type": "Ethnic Wear",
+    "description": "Elegant navy kurta set for traditional events and festivals.",
+    "image": "/images/menKurta.jpg",
+    "specifications": {
+      "Brand": "DesiMode",
+      "Material": "Cotton Silk",
+      "Occasion": "Festive",
+      "Sizes": ["M", "L", "XL", "XXL"]
+    },
+    "reviews": [
+      {
+        "username": "Rakesh",
+        "rating": 5,
+        "comment": "Perfect fit and very comfortable for festive occasions."
+      },
+      {
+        "username": "Sanjay",
+        "rating": 4,
+        "comment": "Good quality fabric but a bit pricey."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Corduroy Jacket Set",
+    "price": 2999,
+    "category": "Men",
+    "type": "Jacket",
+    "description": "Stylish dark green corduroy jacket and pants combo.",
+    "image": "/images/mensJacket.webp",
+    "specifications": {
+      "Brand": "StyleEdge",
+      "Material": "Corduroy",
+      "Fit": "Regular Fit",
+      "Sizes": ["M", "L", "XL"]
+    },
+    "reviews": [
+      {
+        "username": "Vijay",
+        "rating": 5,
+        "comment": "Looks sharp and fits perfectly."
+      },
+      {
+        "username": "Amit",
+        "rating": 4,
+        "comment": "Nice design, but the sleeves are a bit long."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Green Linen Shirt",
+    "price": 1399,
+    "category": "Men",
+    "type": "Shirt",
+    "description": "Lightweight linen shirt for comfort and breathability.",
+    "image": "/images/CasualShirt.jpg",
+    "specifications": {
+      "Brand": "BreezyWear",
+      "Material": "Linen",
+      "Sleeve": "Full Sleeve",
+      "Sizes": ["S", "M", "L", "XL"]
+    },
+    "reviews": [
+      {
+        "username": "Karan",
+        "rating": 5,
+        "comment": "Very comfortable, perfect for summer."
+      },
+      {
+        "username": "Rohit",
+        "rating": 4,
+        "comment": "Nice fabric but the color faded slightly after washing."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Sherwani Set",
+    "price": 5499,
+    "category": "Men",
+    "type": "Ethnic Wear",
+    "description": "Royal sherwani set designed for weddings and grand celebrations.",
+    "image": "/images/shervani.jpg",
+    "specifications": {
+      "Brand": "RoyalGroom",
+      "Material": "Silk Blend",
+      "Occasion": "Wedding",
+      "Sizes": ["M", "L", "XL", "XXL"]
+    },
+    "reviews": [
+      {
+        "username": "Harsh",
+        "rating": 5,
+        "comment": "Stunning sherwani! Perfect for my wedding day."
+      },
+      {
+        "username": "Manoj",
+        "rating": 4,
+        "comment": "Great craftsmanship but delivery was delayed."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "JOdhpuri Set",
+    "price": 5499,
+    "category": "Men",
+    "type": "Ethnic Wear",
+    "description": "Royal jodhpuri designed for weddings and grand celebrations.",
+    "image": "/images/jodhpuri.jfif",
+    "specifications": {
+      "Brand": "EthnicMajesty",
+      "Material": "Brocade",
+      "Occasion": "Wedding",
+      "Sizes": ["M", "L", "XL", "XXL"]
+    },
+    "reviews": [
+      {
+        "username": "Akhil",
+        "rating": 5,
+        "comment": "Excellent fit and very elegant."
+      },
+      {
+        "username": "Suresh",
+        "rating": 4,
+        "comment": "Good quality but a bit heavy to wear."
+      }
+    ]
+  }
+]
