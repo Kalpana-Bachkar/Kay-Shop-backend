@@ -12,7 +12,7 @@ import orderRoutes from "./routes/order.routes.js";
 
 const app = express();
 app.set('etag', false);
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 
 
@@ -39,7 +39,7 @@ app.use(errorHandler);
 
 // MongoDB connection
 mongoose.connect(
-    'mongodb://localhost:27017/Products'
+    process.env.MONGODB_URI || 'mongodb://localhost:27017/Products'
 ).then(success => {
     console.log("✅ MongoDB Connected Successfully");
 
