@@ -18,7 +18,8 @@
     "mongoose": "^8.21.0"
    },
    "scripts": {
-     "start": "nodemon app.js",
+     "start": "node app.js",
+    "dev": "nodemon app.js",
     "build": "echo \"no build step for server\"",
     "test": "echo \"no tests defined\"",
     "eject": "echo \"not applicable\""
