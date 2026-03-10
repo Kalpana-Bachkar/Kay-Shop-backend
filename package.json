@@ -1,33 +1,31 @@
-
- {
+{
   "name": "server",
   "version": "1.0.0",
-   "private": true,
-   "type": "module",
-   "dependencies": {
-     "axios": "^1.8.1",
-     "bcrypt": "^6.0.0",
-     "bcryptjs": "^3.0.3",
-     "cookie-parser": "^1.4.7",
-     "cors": "^2.8.5",
-     "dotenv": "^17.2.3",
-     "express": "^5.2.1",
-     "jsonwebtoken": "^9.0.3",
-     "mongo": "^0.1.0",
-     "mongodb": "^6.19.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongo": "^0.1.0",
+    "mongodb": "^6.19.0",
     "mongoose": "^8.21.0"
-   },
-   "scripts": {
-     "start": "node app.js",
+  },
+  "scripts": {
+    "start": "node app.js",
     "dev": "nodemon app.js",
     "build": "echo \"no build step for server\"",
     "test": "echo \"no tests defined\"",
     "eject": "echo \"not applicable\""
-   },
-   "eslintConfig": {
-     "extends": [
+  },
+  "eslintConfig": {
+    "extends": [
       "eslint:recommended"
-     ]
-   }
- }
- 
+    ]
+  }
+}
