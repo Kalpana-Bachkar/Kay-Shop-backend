@@ -39,14 +39,16 @@ app.use(errorHandler);
 
 // MongoDB connection
 mongoose.connect(
-    process.env.MONGODB_URL || 'mongodb://localhost:27017/Products'
-).then(success => {
-    console.log("✅ MongoDB Connected Successfully");
+    process.env.MONGO_URL)
+    .then(success => {
+        console.log("✅ MongoDB Connected Successfully");
+        console.log("Database:", mongoose.connection.name);
+        console.log("Host:", mongoose.connection.host);
 
-    app.listen(port, () => {
-        console.log(`Server is running on ${port}`);
+        app.listen(port, () => {
+            console.log(`Server is running on ${port}`);
+        });
+
+    }).catch(error => {
+        console.log("❌ MongoDB Connection Error: " + error);
     });
-
-}).catch(error => {
-    console.log("❌ MongoDB Connection Error: " + error);
-});
