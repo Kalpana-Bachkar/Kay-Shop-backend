@@ -121,7 +121,8 @@ export const logout = asyncHandler(async (req, res) => {
         });
     const options = {
         httpOnly: true,
-        secure: true
+        secure: false,
+        sameSite: "None"
     }
     return res.clearCookie('accessToken', options)
         .clearCookie('refreshToken', options)
@@ -148,7 +149,8 @@ export const refreshAccessToken = asyncHandler(async (req, res) => {
         }
         const options = {
             httpOnly: true,
-            secure: true
+            secure: false,
+            sameSite: "None"
         }
 
         const { accessToken, refreshToken } = await generateAccessAndRefreshToken(user._id)
