@@ -11,7 +11,7 @@ import { ApiResponse } from '../utils/ApiResponse.js'
 export const getCart = asyncHandler(async (req, res) => {
 
     const userId = req.user._id;
-    // console.log(userId)
+    console.log(userId)
 
     const cart = await Cart.findOne({ user: userId }).populate("items.productId")
 

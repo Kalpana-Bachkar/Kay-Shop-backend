@@ -89,7 +89,7 @@ export const login = asyncHandler(async (req, res) => {
     let options = {
         httpOnly: true,
         secure: false,
-        sameSite: "lax"
+        sameSite: "None"
 
     }
     return res
