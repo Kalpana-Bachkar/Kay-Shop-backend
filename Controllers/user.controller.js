@@ -88,8 +88,9 @@ export const login = asyncHandler(async (req, res) => {
 
     let options = {
         httpOnly: true,
-        secure: false,
-        sameSite: "None"
+        secure: true,
+        sameSite: "None",
+        path: "/"
 
     }
     return res
@@ -121,8 +122,9 @@ export const logout = asyncHandler(async (req, res) => {
         });
     const options = {
         httpOnly: true,
-        secure: false,
-        sameSite: "None"
+        secure: true,
+        sameSite: "None",
+        path: "/"
     }
     return res.clearCookie('accessToken', options)
         .clearCookie('refreshToken', options)
@@ -149,12 +151,13 @@ export const refreshAccessToken = asyncHandler(async (req, res) => {
         }
         const options = {
             httpOnly: true,
-            secure: false,
-            sameSite: "None"
+            secure: true,
+            sameSite: "None",
+            path: "/"
         }
 
         const { accessToken, refreshToken } = await generateAccessAndRefreshToken(user._id)
-        return res.status(200)
+        return res.status(200) // sameSite: "None"
             .cookie('accessToken', accessToken, options)
             .cookie('refreshToken', refreshToken, options)
             .json(

@@ -5,9 +5,11 @@ import User from '../Models/user.js'
 
 export const verifyJwt = asyncHandler(async (req, res, next) => {
     try {
+        console.log("Cookies received:", req.cookies);
         const token = req.cookies?.accessToken
 
         if (!token) {
+            console.log("No access token found");
             throw new ApiError(401, 'Unauthorized request')
         }
         const decodedToken = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET)
