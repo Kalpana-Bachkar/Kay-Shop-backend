@@ -13,7 +13,7 @@ export const getCart = asyncHandler(async (req, res) => {
     const userId = req.user._id;
     console.log(userId)
 
-    const cart = await Cart.findOne({ user: userId }).populate("items.productId")
+    const cart = await Cart.findOne({ user: userId }).populate("items.productId._id")
 
     if (!cart) {
         return res.status(200)
@@ -51,6 +51,7 @@ export const getCart = asyncHandler(async (req, res) => {
 
 export const addToCart = asyncHandler(async (req, res) => {
     const userId = req.user._id;
+
     const { productId, quantity } = req.body;
     console.log(userId)
     console.log(productId)
