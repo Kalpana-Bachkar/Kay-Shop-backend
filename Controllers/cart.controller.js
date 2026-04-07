@@ -15,6 +15,8 @@ export const getCart = asyncHandler(async (req, res) => {
 
     const cart = await Cart.findOne({ user: userId }).populate("items.productId")
 
+    cart.items = cart.items.filter(item => item.productId !== null);
+
     if (!cart) {
         return res.status(200)
             .json(
