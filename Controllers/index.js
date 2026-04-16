@@ -19,7 +19,8 @@ export const getAllProducts = async (req, res) => {
 
 
 export const getProductById = async (req, res) => {
-    const { productId } = req.params;
+    const { id } = req.params;
+
     try {
         // Find by id field, not _id
         const product = await Product.findById(productId);
