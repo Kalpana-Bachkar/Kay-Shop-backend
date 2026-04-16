@@ -23,7 +23,7 @@ export const getProductById = async (req, res) => {
 
     try {
         // Find by id field, not _id
-        const product = await Product.findById(productId);
+        const product = await Product.findById(id);
         if (product) {
 
             res.status(200).json({ product });
