@@ -1,4 +1,4 @@
-
+import { Mongoose } from 'mongoose';
 import Product from '../Models/products.js';
 
 
@@ -24,11 +24,11 @@ export const getProductById = async (req, res) => {
     try {
         // Find by id field, not _id
 
-        if (!mongoose.Types.ObjectId.isValid(id)) {
-            return res.status(400).json({
-                message: "Invalid product ID"
-            });
-        }
+        // if (!mongoose.Types.ObjectId.isValid(id)) {
+        //     return res.status(400).json({
+        //         message: "Invalid product ID"
+        //     });
+        // }
         const product = await Product.findById(id);
         if (product) {
 
