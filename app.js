@@ -18,7 +18,7 @@ const port = process.env.PORT || 5000;
 
 // CORS middleware MUST come FIRST, before routes
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: ["https://kay-shop-backend-1.onrender.com", "http://localhost:3000"],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
